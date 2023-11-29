@@ -8,3 +8,66 @@ body {
 h1 {
   color: #333;
 }
+
+/*-----*/
+
+#countries-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px
+}
+
+.countryClass{
+  width: 150px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.countryClass img{
+  width: 100%;
+}
+.container{
+  width: 400px;
+  height: 200px;
+  position: fixed;
+  top: 30%;
+  left: 35%;
+  background-color: #efefef;
+  padding: 10px 0px 10px 10px;
+  -webkit-box-shadow: 10px 11px 8px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 8px -7px rgba(0,0,0,0.75);
+box-shadow: 10px 11px 8px -7px rgba(0,0,0,0.75);
+}
+.container img{
+  width: 50%;
+  height: 50%;
+  padding-top: 20px;
+}
+
+
+.containerCountry{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  width: 95%;
+  border-radius: 5px;
+   
+}
+.datos{
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+button{
+  margin: 20px 0px 0px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0047ab;
+  color: #fff;
+  padding: 7px;
+  
+
+}
+
